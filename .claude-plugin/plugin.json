@@ -1,0 +1,13 @@
+{
+  "name": "claude-skills",
+  "version": "0.1.0",
+  "description": "Personal collection of Claude Code skills and plugins",
+  "author": {
+    "name": "odysseia06",
+    "url": "https://github.com/odysseia06"
+  },
+  "repository": "https://github.com/odysseia06/claude-skills",
+  "license": "MIT",
+  "skills": "./skills/",
+  "agents": "./agents/"
+}
