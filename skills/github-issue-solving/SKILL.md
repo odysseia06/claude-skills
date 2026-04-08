@@ -170,7 +170,7 @@ Verification
 - Final result
 
 Git
-- Commit: <type(scope): concise description>
+- Commit: <type(scope): concise description (#issuenumber)>
 - Push: pushed / not pushed, with reason if not
 ```
 
@@ -182,11 +182,11 @@ Before committing:
 - review the staged diff
 - make sure the verification story is clean
 
-Use a conventional commit line that is minimal but informative:
+Use a conventional commit line that is minimal but informative, add the issue number in paranthesis at the end of the line:
 
-- `fix(auth): prevent duplicate token refresh on retry`
-- `fix(api): handle empty label filters in issue search`
-- `feat(importer): support milestone mapping from issue payloads`
+- `fix(auth): prevent duplicate token refresh on retry (#42)`
+- `fix(api): handle empty label filters in issue search (#31)`
+- `feat(importer): support milestone mapping from issue payloads (#12)`
 
 Add a short body only when it clarifies why the change exists or what verification was added.
 
